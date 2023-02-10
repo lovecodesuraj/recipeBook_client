@@ -1,0 +1,45 @@
+.itemDescription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: rgb(231, 231, 231); */
+
+
+
+}
+.itemDescription h1{
+    font-size:30px;
+    padding: 20px;
+    color: rgb(3, 3, 87);
+}
+.itemDescription img{
+    max-width: 300px;
+    width: 100%;
+    border-radius: 5px;
+}
+.cuisines,.meal,.dish{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    color: rgb(3, 3, 87);
+}
+.types{
+    padding: 0 5px;
+}
+.ingredients{
+    text-align: left;
+    color:rgb(3, 3, 87);
+}
+.ingredients h2{
+    text-align: center;
+    padding:20px 0 10px 0;
+}
+.ingredient{
+    padding: 10px 20px;
+    margin:15px 0;
+}
+.ingredient p{
+    color: rgb(3, 3, 87);
+    font-size: 20px;
+}

@@ -1,0 +1,45 @@
+.front-page{
+
+    text-align: center;
+    align-items: center;
+    padding: 20px 30px;
+    /* background-color: rgb(245, 242, 219); */
+    /* box-shadow:  0 3px rgb(224, 224, 221); */
+}
+.front-page h1{
+    color:rgb(3, 3, 87)
+}
+
+.searchForm{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.searchInput{
+    padding: 5px 10px;
+    min-width: 200px;
+    max-width: 100vh;
+    font-size: 15px;
+}
+.searchForm button{
+    padding: 5px 10px;
+    font-size: 15px;
+    margin-left: 10px;
+    background-color:rgb(73, 73, 151);
+    color: white;
+    font-weight: 500;
+    border: 2px solid rgb(73, 73, 151);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.recipeCards{
+    display: flex;
+    /* gap:"px"; */
+    margin: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    /* background-color: rgb(231, 231, 231); */
+    
+}
